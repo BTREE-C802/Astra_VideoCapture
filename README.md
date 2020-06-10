@@ -41,6 +41,8 @@ $ sudo ./install.sh
 加入环境
 $ source OpenNIDevEnvironment
 
+**也可以在github上下载**https://github.com/choonyip/OpenNI-Linux-x64-2.3中的内容，安装方法稍有差异
+
 编译例子
 $ cd Samples/SimpleViewer
 $ make
