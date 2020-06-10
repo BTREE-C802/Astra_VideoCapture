@@ -55,3 +55,5 @@ $ make
 $ cd Bin/x64-Release
 $ ./SimpleViewer
 如果一切正常没有问题，则能显示图像！
+
+##请注意：在***CMakeLists.txt***文本中有关于加载这个库的内容，请自行跟改为自己的目录下
