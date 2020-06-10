@@ -22,7 +22,10 @@ $ldconfig -p | grep libudev.so.1
 $cd /lib/x86_64-linux-gnu
 $sudo ln -s libudev.so.x.x.x libudev.so.1
 
-下载驱动：https://orbbec3d.com/develop/#registergestoos，选择linux版本
+下载驱动：https://orbbec3d.com/develop/#registergestoos
+
+选择linux版本
+
 (下载这个：Download Orbbec OpenNI SDK   下载后选择Linux   里面就有OpenNI-Linux-x64-2.3 {根据自己版本选择})
 
 $ cd ~
@@ -41,7 +44,9 @@ $ sudo ./install.sh
 加入环境
 $ source OpenNIDevEnvironment
 
-**也可以在github上下载**https://github.com/choonyip/OpenNI-Linux-x64-2.3中的内容，安装方法稍有差异
+**也可以在github上下载**https://github.com/choonyip/OpenNI-Linux-x64-2.3
+
+中的内容，安装方法稍有差异
 
 编译例子
 $ cd Samples/SimpleViewer
